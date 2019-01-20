@@ -43,6 +43,7 @@ feature -- Access
 feature -- Basic operations
 
 	live
+			-- `live' operation of Current.
 		do
 				downloader.live
 				viewer.live
@@ -64,9 +65,15 @@ feature -- Implementation
 			-- A newly created instance of the same type.
 			-- This feature may be redefined in descendants so as to
 			-- produce an adequately allocated and initialized object.
-			--} The need for this declaration is an artifact of the current EiffelBase,
+			--| The need for this declaration is an artifact of the current EiffelBase,
 			--| it will go away soon.
+		note
+			obsolete_soon: "[
+				The need for this declaration is an artifact of the 
+				current 18.11 EiffelBase, it will go away soon.
+				]"
 		do
 			create Result.make
 		end
+
 end

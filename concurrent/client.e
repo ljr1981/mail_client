@@ -26,7 +26,7 @@ feature {NONE} -- Initialization
 	make
 			-- Set up downloader and viewer.
 		do
-			print ("Mail client, SEQUENTIAL version, " + {PARAMETERS}.Max_messages.out + " messages.%N%N")
+			print ("Mail client, CONCURRENT version, " + {PARAMETERS}.Max_messages.out + " messages.%N%N")
 			create downloader.make (Current)
 			create viewer.make (Current)
 			list_make
@@ -45,6 +45,7 @@ feature -- Access
 feature -- Basic operations
 
 	live
+			-- `live' operation of Current.
 		do
 			separate downloader as d, viewer as v do
 				d.live
@@ -68,9 +69,15 @@ feature -- Implementation
 			-- A newly created instance of the same type.
 			-- This feature may be redefined in descendants so as to
 			-- produce an adequately allocated and initialized object.
-			--} The need for this declaration is an artifact of the current EiffelBase,
+			--| The need for this declaration is an artifact of the current EiffelBase,
 			--| it will go away soon.
+		note
+			obsolete_soon: "[
+				The need for this declaration is an artifact of the 
+				current 18.11 EiffelBase, it will go away soon.
+				]"
 		do
 			create Result.make
 		end
+
 end
