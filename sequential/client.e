@@ -1,8 +1,17 @@
 note
-	description: "Summary description for {CLIENT}."
+	title: "Representation of a {CLIENT}."
 	author: "Bertrand Meyer"
-	date: "$Date$"
-	revision: "$Revision$"
+	description: "[
+		There will be one instance of this class, representing the email client
+		which coordinates between the {DOWNLOADER} and {VIEWER}.
+		]"
+
+	help: "Press F1 (see Info tool, mail_client target)"
+
+	EIS: "name=Client Summary", "protocol=URI", "src=https://www.eiffel.org/files/uploads/scoop_tutorial_%%282%%29.pdf#page=2&view=FitH"
+	EIS: "name=Client Detail", "protocol=URI", "src=https://www.eiffel.org/files/uploads/scoop_tutorial_%%282%%29.pdf#page=5&view=FitH"
+
+	target: "Scratchpad"
 
 class CLIENT inherit
 

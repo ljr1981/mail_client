@@ -11,6 +11,8 @@ note
 	EIS: "name=Client Summary", "protocol=URI", "src=https://www.eiffel.org/files/uploads/scoop_tutorial_%%282%%29.pdf#page=2&view=FitH"
 	EIS: "name=Client Detail", "protocol=URI", "src=https://www.eiffel.org/files/uploads/scoop_tutorial_%%282%%29.pdf#page=5&view=FitH"
 
+	target: "Concurrent"
+
 class CLIENT inherit
 
 	LINKED_LIST [STRING]
