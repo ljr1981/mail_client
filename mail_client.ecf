@@ -3,7 +3,7 @@
 	<description>Sequential and Concurrent SCOOP Examples</description>
 	<target name="mail_client_sequential">
 		<note>
-			<eis name="Concurrent programming in SCOOP: a hands-on tutorial" protocol="URI" src="https://www.eiffel.org/files/uploads/scoop_tutorial_%%282%%29.pdf#page=1&amp;view=FitH"/>
+			<eis name="Concurrent programming in SCOOP: a hands-on tutorial" protocol="URI" src="https://www.eiffel.org/files/uploads/scoop_tutorial_%282%29.pdf#page=1&amp;view=FitH"/>
 		</note>
 		<description>Sequential Target</description>
 		<root class="APPLICATION" feature="make"/>
@@ -32,8 +32,8 @@
 	</target>
 	<target name="mail_client_concurrent">
 		<note>
-			<eis name="Concurrent programming in SCOOP: a hands-on tutorial" protocol="URI" src="https://www.eiffel.org/files/uploads/scoop_tutorial_%%282%%29.pdf#page=1&amp;view=FitH"/>
-			<eis name="Going Separate" protocol="URI" src="https://www.eiffel.org/files/uploads/scoop_tutorial_%%282%%29.pdf#page=8&amp;view=FitH"/>
+			<eis name="Concurrent programming in SCOOP: a hands-on tutorial" protocol="URI" src="https://www.eiffel.org/files/uploads/scoop_tutorial_%282%29.pdf#page=1&amp;view=FitH"/>
+			<eis name="Going Separate" protocol="URI" src="https://www.eiffel.org/files/uploads/scoop_tutorial_%282%29.pdf#page=9&amp;view=FitH"/>
 		</note>
 		<description>Concurrent Target</description>
 		<root class="APPLICATION" feature="make"/>
@@ -60,7 +60,7 @@
 	</target>
 	<target name="mail_client_scratchpad">
 		<note>
-			<eis name="Concurrent programming in SCOOP: a hands-on tutorial" protocol="URI" src="https://www.eiffel.org/files/uploads/scoop_tutorial_%%282%%29.pdf#page=1&amp;view=FitH"/>
+			<eis name="Concurrent programming in SCOOP: a hands-on tutorial" protocol="URI" src="https://www.eiffel.org/files/uploads/scoop_tutorial_%282%29.pdf#page=1&amp;view=FitH"/>
 		</note>
 		<description>Scratchpad Target</description>
 		<root class="APPLICATION" feature="make"/>
