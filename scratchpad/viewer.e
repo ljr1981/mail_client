@@ -1,8 +1,21 @@
 note
 	description: "Visualizer of email messages."
 	author: "Bertrand Meyer"
-	date: "$Date$"
-	revision: "$Revision$"
+	description: "[
+		As with {CLIENT}, there is just one instance, a simulated 
+		email viewer which randomly selects a message number (like 
+		a human user who would decide to read one email or another 
+		from the list displayed by, say, Microsoft Outlook) and 
+		displays it. If the downloader has not produced the requested 
+		message yet, the viewer will have to wait.
+		]"
+
+	help: "Press F1 (see Info tool, mail_client target)"
+
+	EIS: "name=Viewer Summary", "protocol=URI", "src=https://www.eiffel.org/files/uploads/scoop_tutorial_%%282%%29.pdf#page=2&view=FitH"
+	EIS: "name=Viewer Detail", "protocol=URI", "src=https://www.eiffel.org/files/uploads/scoop_tutorial_%%282%%29.pdf#page=8&view=FitH"
+
+	target: "Scratchpad"
 
 class
 	VIEWER
