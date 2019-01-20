@@ -14,6 +14,8 @@
 	EIS: "name=Downloader Summary", "protocol=URI", "src=https://www.eiffel.org/files/uploads/scoop_tutorial_%%282%%29.pdf#page=2&view=FitH"
 	EIS: "name=Downloader Detail", "protocol=URI", "src=https://www.eiffel.org/files/uploads/scoop_tutorial_%%282%%29.pdf#page=6&view=FitH"
 
+	target: "Concurrent"
+
 class
 	DOWNLOADER
 

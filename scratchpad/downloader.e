@@ -1,8 +1,20 @@
-note
-	description: "Objects in charge of getting (simulated) email messages."
+﻿note
+	title: "Objects in charge of getting (simulated) email messages."
 	author: "Bertrand Meyer"
-	date: "$Date$"
-	revision: "$Revision$"
+	description: "[
+		Also with just one instance, this class is in charge of 
+		downloading email messages. We don’t really download them 
+		from a network, we just simulate the process by creating 
+		boring emails whose texts read “Message 1”, “Message 2” 
+		and so on.
+		]"
+
+	help: "Press F1 (see Info tool, mail_client target)"
+
+	EIS: "name=Downloader Summary", "protocol=URI", "src=https://www.eiffel.org/files/uploads/scoop_tutorial_%%282%%29.pdf#page=2&view=FitH"
+	EIS: "name=Downloader Detail", "protocol=URI", "src=https://www.eiffel.org/files/uploads/scoop_tutorial_%%282%%29.pdf#page=6&view=FitH"
+
+	target: "Scratchpad"
 
 class
 	DOWNLOADER
