@@ -1,8 +1,18 @@
 note
-	description: "Objects in charge of generating random numbers for simulation of email operations."
+	title: "Representation of a Random Email {GENERATOR}"
 	author: "Bertrand Meyer"
-	date: "$Date$"
-	revision: "$Revision$"
+	description: "[
+		Objects in charge of generating random numbers for simulation of email operations.
+		Auxiliary classes: GENERATOR for producing random messages and waiting
+		times (between downloads or views) and GLOBAL for global information.
+		]"
+
+	help: "Press F1 (see Info tool, mail_client target)"
+
+	EIS: "name=Generator Summary", "protocol=URI", "src=https://www.eiffel.org/files/uploads/scoop_tutorial_%%282%%29.pdf#page=2&view=FitH"
+	EIS: "name=Generator Detail", "protocol=URI", "src=https://www.eiffel.org/files/uploads/scoop_tutorial_%%282%%29.pdf#page=8&view=FitH"
+
+	target: "Sequential"
 
 class
 	GENERATOR

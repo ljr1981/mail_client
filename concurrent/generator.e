@@ -12,6 +12,7 @@ note
 	EIS: "name=Generator Summary", "protocol=URI", "src=https://www.eiffel.org/files/uploads/scoop_tutorial_%%282%%29.pdf#page=2&view=FitH"
 	EIS: "name=Generator Detail", "protocol=URI", "src=https://www.eiffel.org/files/uploads/scoop_tutorial_%%282%%29.pdf#page=8&view=FitH"
 
+	target: "Concurrent"
 
 class
 	GENERATOR
