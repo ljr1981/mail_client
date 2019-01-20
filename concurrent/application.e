@@ -11,6 +11,8 @@
 	EIS: "name=Concurrent Object Oriented Programming with Bertrand Meyer", "protocol=URI", "src=https://learning.acm.org/webinars/coop"
 	EIS: "name=Concurrency Made Easy", "protocol=URI", "src=http://cme.ethz.ch/documents/CME.pdf#page=1&view=FitH"
 
+	target: "Concurrent"
+
 class
 	APPLICATION
 
