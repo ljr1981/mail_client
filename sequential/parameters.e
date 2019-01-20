@@ -20,7 +20,7 @@
 	EIS: "name=Parameters Detail 1", "protocol=URI", "src=https://www.eiffel.org/files/uploads/scoop_tutorial_%%282%%29.pdf#page=4&view=FitH"
 	EIS: "name=Parameters Detail 2", "protocol=URI", "src=https://www.eiffel.org/files/uploads/scoop_tutorial_%%282%%29.pdf#page=14&view=FitH"
 
-	target: "Concurrent"
+	target: "Seqential"
 
 class
 	PARAMETERS
